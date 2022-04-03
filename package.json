@@ -1,0 +1,23 @@
+{
+  "name": "bog",
+  "version": "0.1.0",
+  "description": "bog test site",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d src",
+    "serve": "light-server -s ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adarcher/bog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adarcher/bog/issues"
+  },
+  "homepage": "https://github.com/adarcher/bog#readme",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
